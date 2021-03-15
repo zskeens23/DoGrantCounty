@@ -136,6 +136,7 @@ Project Link: [https://github.com/lorettadtappan/DoGrantCounty](https://github.c
 ## Acknowledgements
 
 * Developer: Song Soo Kim
+* ReadMeTemplate: @othneildrew
 
 
 
@@ -149,6 +150,4 @@ Project Link: [https://github.com/lorettadtappan/DoGrantCounty](https://github.c
 [stars-url]: https://github.com/lorettadtappan/DoGrantCounty/stargazers
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/community-foundation-of-grant-county-indiana-inc.
-
-ReadMeTemplate from @othneildrew
 
