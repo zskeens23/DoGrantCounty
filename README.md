@@ -12,10 +12,10 @@
     <img src="https://github.com/lorettadtappan/DoGrantCounty/blob/main/logo-purple.png" alt="Logo">
   </a>
 
-  <h3 align="center">DO GRANT COUNTY</h3>
+  <h3 align="center">DO GRANT COUNTY: COMMUNITY CALENDAR</h3>
 
   <p align="center">
-    an inclusive system developed to show all there is to DO in Grant County, Indiana
+    Do Grant County an inclusive system developed to show all there is to DO in Grant County, Indiana. Do Grant County was established by multiple organizations within Grant     County to engage our community and visitors in a huge array of local events; providing a platform to freely find and add events in one location.
     <br />
     <a href="https://github.com/lorettadtappan/DoGrantCounty"><strong>Explore the docs »</strong></a>
     <br />
@@ -63,14 +63,12 @@
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`lorettadtappan`, `DoGrantCounty`, `@GiveToGrant`, `loretta@givetogrant.org`, `Do Grant County: Community Calendar`, `Do Grant County an inclusive system developed to show all there is to DO in Grant County, Indiana.`
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* https://www.pythonanywhere.com
 
 
 
@@ -91,7 +89,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/lorettadtappan/DoGrantCounty.git
    ```
 2. Install NPM packages
    ```sh
@@ -112,7 +110,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/lorettadtappan/DoGrantCounty/issues) for a list of proposed features (and known issues).
 
 
 
@@ -129,30 +127,19 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Community Foundation of Grant County - [@GiveToGrant](https://twitter.com/@GiveToGrant) - loretta@givetogrant.org
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/lorettadtappan/DoGrantCounty](https://github.com/lorettadtappan/DoGrantCounty)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
-
-
+* Developer: Song Soo Kim
 
 
 
@@ -165,7 +152,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
 [stars-url]: https://github.com/lorettadtappan/DoGrantCounty/stargazers
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/lorettatappan
+[linkedin-url]: https://www.linkedin.com/company/community-foundation-of-grant-county-indiana-inc.
 
 ReadMeTemplate from @othneildrew
 
