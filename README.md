@@ -59,11 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`lorettadtappan`, `DoGrantCounty`, `@GiveToGrant`, `loretta@givetogrant.org`, `Do Grant County: Community Calendar`, `Do Grant County an inclusive system developed to show all there is to DO in Grant County, Indiana.`
+Do Grant County an inclusive system developed to show all there is to DO in Grant County, Indiana. DoGrantCounty.com was established by multiple organizations within Grant County to engage our community and visitors in a huge array of local events; providing a platform to freely find and add events in one location.
 
 
 ### Built With
