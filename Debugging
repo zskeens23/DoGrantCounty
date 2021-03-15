@@ -362,6 +362,25 @@ def contact():
     setting = db.setting()
     return render_template('contact.html', setting=setting)
 
+class NewEventForm(FlaskForm):
+    title = StringField('Title', [InputRequired(message="Title is required."), Length(max=50, message="Title is too long (max 50 char).")])
+    organization = StringField('Host (Organization)', [InputRequired(message="Host is required."), Length(max=50, message="Host is too long (max 50 char).")])
+    description = TextAreaField('Description', [InputRequired(message="Description is required."), Length(max=1000, message="Description is too long (max 1,000 char).")])
+    start_date = DateField('Start Date', [InputRequired(message="Start Date is required."), DateRange(min=datetime.date(2000,1,1),message="Date should be later than Jan 1, 2000.")], format='%Y-%m-%d')
+    end_date = DateField('End Date', [InputRequired(message="End Date is required."), DateRange(min=datetime.date(2000,1,1),message="Date should be later than Jan 1, 2000.")], format='%Y-%m-%d')
+    start_time = TimeField('Start Time', [InputRequired(message="Start Time is required.")])
+    end_time = TimeField('End Time', [InputRequired(message="End Time is required.")])
+    category = SelectMultipleField('Category')
+    cost = StringField('Cost', [Length(max=50, message="Cost is too long (max 50 char).")])
+    contact_name = StringField('Contact Name', [InputRequired(message="Contact Name is required.")])
+    contact_email = EmailField('Contact Email', [InputRequired(message="Contact Email is required.")])
+    contact_phone = TelField('Contact Phone')
+    location = StringField('Location', [InputRequired(message="Location is required.")])
+    url = StringField('Web URL', [Length(max=100, message="Web URL is too long (max 100 char).")])
+    photo = FileField('Photo', [FileAllowed(['jpg', 'png', 'jpeg', 'gif'], 'You can upload images only.')])
+    repeated = SelectField('Repeated', choices=[('daily', 'Daily'), ('weekly', 'Weekly'), ('monthly', 'Monthly'), ('weekday','Every th day')])
+    submit = SubmitField('Add Event')
+
 class PhotoForm(FlaskForm):
     photo = FileField('Photo', [FileAllowed(['jpg', 'png', 'jpeg', 'gif'], 'You can upload images only.')])
     submit = SubmitField('Upload Photo')
