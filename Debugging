@@ -1,16 +1,15 @@
 # coding=utf-8
-from flask import Flask, render_template, flash, redirect, url_for, request, session, jsonify
-from wtforms import StringField, SubmitField, SelectField, SelectMultipleField, PasswordField, BooleanField, HiddenField, TextAreaField
-from wtforms.fields.html5 import DateField, EmailField, TelField, DecimalField, URLField, IntegerField
+from flask import Flask, render_template, flash, redirect, url_for, request, session
+from wtforms import StringField, SubmitField, SelectField, SelectMultipleField, PasswordField, HiddenField, TextAreaField
+from wtforms.fields.html5 import DateField, EmailField, TelField
 from wtforms_components import TimeField, DateRange
-from wtforms.validators import Email, Length, NumberRange, DataRequired, InputRequired, EqualTo, AnyOf, Regexp, Optional, Required, URL
-from flask_wtf import FlaskForm, validators
-from flask_wtf.file import FileField, FileRequired, FileAllowed
-from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
+from wtforms.validators import Email, Length, InputRequired
+from flask_wtf import FlaskForm
+from flask_wtf.file import FileField, FileAllowed
 from flask_login import LoginManager, login_user, logout_user, login_required, current_user
 from flask_hashing import Hashing
 from flask_mail import Mail, Message
-import string, random, datetime, re, os
+import datetime, re, os
 
 import db
 
