@@ -12,23 +12,21 @@
     <img src="https://github.com/lorettadtappan/DoGrantCounty/blob/main/logo-purple.png" alt="Logo">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">DO GRANT COUNTY</h3>
 
   <p align="center">
-    project_description
+    an inclusive system developed to show all there is to DO in Grant County, Indiana
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lorettadtappan/DoGrantCounty"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="http://www.dograntcounty.com">View the Site</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/lorettadtappan/DoGrantCounty/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/lorettadtappan/DoGrantCounty/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
